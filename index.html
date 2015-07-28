@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="directivePractice">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Directives</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <title>Directives</title>
 </head>
+
 <body>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.js"></script>
-  <script src="app/app.js"></script>
+<!--     <p class="red">Hello</p>
+ -->
+    <ng-view></ng-view>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.js"></script>
+    <script src="./app/app.js"></script>
+    <script src="./app/home/homeCtrl.js"></script>
+    <script src="app/dirDisplay/dirDisplay.js"></script>
+    <script src="app/dirWeather/dirWeather.js"></script>
+    <script src="app/dirWeather/weatherService.js"></script>
 </body>
+
 </html>
